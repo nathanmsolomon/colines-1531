@@ -1,0 +1,187 @@
+{
+ "_note": "Glyphs resting on 1-2 impressions (3-4 also looked at), each checked BY EYE against its word on the page (scripts/review_thin.py -> work/review_thin/). Nov 11 2026. check_build.py reports any glyph with n <= 2 that is not listed 'ok' here. Crops are <al dir>/<file>; they renumber when a transcription changes, so the word is given too.",
+ "ter_roman_avg3": {
+  "G": {
+   "verdict": "ok",
+   "crops": [
+    "ter_roman_al_p1/1077.png"
+   ],
+   "note": "Geor-"
+  },
+  "K": {
+   "verdict": "ok",
+   "crops": [
+    "ter_roman_al_p9/0727.png"
+   ],
+   "note": "vel K,quod"
+  },
+  "q̃": {
+   "verdict": "ok",
+   "crops": [
+    "ter_roman_al_p1/0045.png"
+   ],
+   "note": "real sort: q with a double mark above and a stroke through the tail; the label q-tilde is approximate"
+  },
+  "í": {
+   "verdict": "ok",
+   "crops": [
+    "ter_roman_al_p0/1046.png"
+   ],
+   "note": "the seed (idq;). Three more good crops exist (p0/0272 celiq;, p5/0404 multiq;, p8/0703 consiliiq;) and could be averaged; p4/0915 is a mis-cut ')'"
+  },
+  "ī": {
+   "verdict": "ok",
+   "crops": [
+    "ter_roman_al_p4/0858.png"
+   ],
+   "note": "Amphiona; mark reads as a macron"
+  },
+  "ꝰ": {
+   "verdict": "ok",
+   "crops": [
+    "ter_roman_al_p9/1030.png"
+   ],
+   "note": "quest + raised us-sign"
+  },
+  "ó": {
+   "verdict": "ok",
+   "crops": [
+    "ter_roman_al_p0/0105.png"
+   ],
+   "note": "homone; seeded single impression since the Nov 11 rebuild (the oliuoq; crop has an upright stroke and is left out)"
+  },
+  "_n3_4": "B L R fl: all crops and the averages are right",
+  "ú": {
+   "verdict": "ok",
+   "crops": [
+    "ter_roman_al_p5/0681.png"
+   ],
+   "note": "abarumq; (copy 5 line 15). Nov 12: all five u-acute crops are real, but the acute sits above-right of the box the aligner cuts, so the average was a bare u (found by check_glyphs.py). recut_accent.py added the accent's ink to the two crops where it stands free (p1/0320 simulque, p5/0681); in the other three it touches the next letter. Seeded with p5/0681 alone."
+  },
+  "k": {
+   "verdict": "ok",
+   "crops": [
+    "ter_roman_al_p11/0012.png"
+   ],
+   "note": "'Refert nihili k' (p. 55 line 21); the seed. Nov 12: the full rebuild's k was the fragment 'ihil' of nihili. The other k found by the sweep (p. 103 line 29, 'B velut, vel k') is a SMALLER FOUNT (x-height 48 px against 57) and must not be used; its block was removed from configs/ter_roman.json"
+  },
+  "z": {
+   "verdict": "ok",
+   "crops": [
+    "ter_roman_al_p16/0030.png"
+   ],
+   "note": "Amazonum (p. 85 line 4)"
+  }
+ },
+ "ang_italic_avg3": {
+  "2": {
+   "verdict": "ok",
+   "crops": [
+    "ang_italic_al_p0/0019.png"
+   ],
+   "note": "running head 25; a blotchy impression"
+  },
+  "6": {
+   "verdict": "ok",
+   "crops": [
+    "ang_italic_al_p11/0019.png"
+   ],
+   "note": "the seed (head 56); the other two labelled crops are mis-cuts and unused"
+  },
+  "O": {
+   "verdict": "ok",
+   "crops": [
+    "ang_italic_al_p3/0311.png"
+   ],
+   "note": "isle de O-"
+  },
+  "Z": {
+   "verdict": "ok",
+   "crops": [
+    "ang_italic_al_p0/0590.png"
+   ],
+   "note": "Zibaui-"
+  },
+  "(": {
+   "verdict": "ok",
+   "crops": [
+    "ang_italic_al_p2/0226.png",
+    "ang_italic_al_p14/0820.png"
+   ],
+   "note": ""
+  },
+  ")": {
+   "verdict": "ok",
+   "crops": [
+    "ang_italic_al_p2/0235.png",
+    "ang_italic_al_p14/0830.png"
+   ],
+   "note": ""
+  },
+  "1": {
+   "verdict": "ok",
+   "crops": [
+    "ang_italic_al_p8/0020.png",
+    "ang_italic_al_p14/0064.png"
+   ],
+   "note": "31 and 170; p14/0462 is an l, unused"
+  },
+  "8": {
+   "verdict": "ok",
+   "crops": [
+    "ang_italic_al_p13/0018.png",
+    "ang_italic_al_p14/0018.png"
+   ],
+   "note": "83 and 87"
+  },
+  "Q": {
+   "verdict": "ok",
+   "crops": [
+    "ang_italic_al_p8/0145.png",
+    "ang_italic_al_p12/0735.png"
+   ],
+   "note": "Quant, Quat"
+  },
+  "4": {
+   "verdict": "shape ok, source untraced",
+   "crops": [],
+   "note": "copied by hand from work/ang_italic_avg3_15nov6 (working notes, Nov 10); no crop in the current al dirs. Looks like a 4. Trace it at the next full build"
+  },
+  "9": {
+   "verdict": "shape ok, source untraced",
+   "crops": [],
+   "note": "as for 4"
+  },
+  "æ": {
+   "verdict": "ok",
+   "crops": [
+    "ang_italic_al_p4/0094.png"
+   ],
+   "note": "Nov 13: the real letter, a free-standing piece of ink, named by eye with scripts/handcut.py (sheet work/review_thin/handcut_ang_italic.png). æſles (copy 4 line 3). Before, the crop was 'bigar' of the next word"
+  },
+  "T": {
+   "verdict": "ok",
+   "crops": [
+    "ang_italic_al_p2/0183.png",
+    "ang_italic_al_p9/0594.png"
+   ],
+   "note": "Nov 13: the real letter, a free-standing piece of ink, named by eye with scripts/handcut.py (sheet work/review_thin/handcut_ang_italic.png). Telles (copy 2 line 6), Tellemẽt (copy 9 line 16): an upright capital. Before, both crops were the e after it"
+  },
+  "p̃": {
+   "verdict": "ok",
+   "crops": [
+    "ang_italic_al_p14/0220.png",
+    "ang_italic_al_p13/0528.png"
+   ],
+   "note": "Nov 13: the real letter, a free-standing piece of ink, named by eye with scripts/handcut.py (sheet work/review_thin/handcut_ang_italic.png). ap̃s (copy 14 line 7) and p̃mier (copy 13 line 14): p and its tilde, two pieces each. The p of this sort is upright with a foot serif, as printed"
+  },
+  "_n3_4": "0 3 7 H fl u-tilde 5 F N i-tilde: the averages are right (the mis-cut crops among them were already left out by the averager)",
+  "Y": {
+   "verdict": "ok",
+   "crops": [
+    "ang_italic_al_p29/0026.png"
+   ],
+   "note": "Nov 13: the real letter, a free-standing piece of ink, named by eye with scripts/handcut.py (sheet work/review_thin/handcut_ang_italic.png). Yztal- (p. 336; the block has no space before it, 'nõmeeYztal-', which is why the aligner cut 'ee')"
+  }
+ }
+}

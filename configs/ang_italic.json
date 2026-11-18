@@ -1,0 +1,305 @@
+{
+ "name": "ang_italic",
+ "family": "Colines Gros-romain",
+ "style": "Italic",
+ "trans": {
+  "0": "transcriptions/ang_p0070.txt",
+  "1": "transcriptions/ang_p0090.txt",
+  "2": "transcriptions/ang_p0160.txt",
+  "3": "transcriptions/ang_p0025.txt",
+  "4": "transcriptions/ang_p0030.txt",
+  "5": "transcriptions/ang_p0069.txt",
+  "6": "transcriptions/ang_p0071.txt",
+  "7": "transcriptions/ang_p0077.txt",
+  "8": "transcriptions/ang_p0082.txt",
+  "9": "transcriptions/ang_p0026.txt",
+  "10": "transcriptions/ang_p0119.txt",
+  "11": "transcriptions/ang_p0132.txt",
+  "12": "transcriptions/ang_p0148.txt",
+  "13": "transcriptions/ang_p0186.txt",
+  "14": "transcriptions/ang_p0194.txt",
+  "15": "transcriptions/ang_p0321_h33.txt",
+  "16": "transcriptions/ang_p0325_h11.txt",
+  "17": "transcriptions/ang_p0327_h20.txt",
+  "18": "transcriptions/ang_p0373_h18.txt",
+  "19": "transcriptions/ang_p0374_h13.txt",
+  "20": "transcriptions/ang_p0375_h28.txt",
+  "21": "transcriptions/ang_p0377_h19.txt",
+  "22": "transcriptions/ang_p0379_h25.txt",
+  "23": "transcriptions/ang_p0380_h23.txt",
+  "24": "transcriptions/ang_p0382_h10.txt",
+  "25": "transcriptions/ang_p0385_h8.txt",
+  "26": "transcriptions/ang_p0386_h9.txt",
+  "27": "transcriptions/ang_p0389_h5.txt",
+  "28": "transcriptions/ang_p0390_h15.txt",
+  "29": "transcriptions/ang_p0336_h15.txt",
+  "30": "transcriptions/ang_p0040_h22.txt",
+  "31": "transcriptions/ang_p0040_h26.txt",
+  "32": "transcriptions/ang_p0078_h28.txt",
+  "33": "transcriptions/ang_p0088_h12.txt",
+  "34": "transcriptions/ang_p0239_h32.txt",
+  "35": "transcriptions/ang_p0267_h13.txt"
+ },
+ "images": {
+  "0": "work/ang_p0070.png",
+  "1": "work/ang_p0090.png",
+  "2": "work/ang_p0160.png",
+  "3": "work/ang_p0025.png",
+  "4": "work/ang_p0030.png",
+  "5": "work/ang_p0069.png",
+  "6": "work/ang_p0071.png",
+  "7": "work/ang_p0077.png",
+  "8": "work/ang_p0082.png",
+  "9": "work/ang_p0026.png",
+  "10": "work/ang_p0119.png",
+  "11": "work/ang_p0132.png",
+  "12": "work/ang_p0148.png",
+  "13": "work/ang_p0186.png",
+  "14": "work/ang_p0194.png",
+  "15": "work/ang_p0321_h33.png",
+  "16": "work/ang_p0325_h11.png",
+  "17": "work/ang_p0327_h20.png",
+  "18": "work/ang_p0373_h18.png",
+  "19": "work/ang_p0374_h13.png",
+  "20": "work/ang_p0375_h28.png",
+  "21": "work/ang_p0377_h19.png",
+  "22": "work/ang_p0379_h25.png",
+  "23": "work/ang_p0380_h23.png",
+  "24": "work/ang_p0382_h10.png",
+  "25": "work/ang_p0385_h8.png",
+  "26": "work/ang_p0386_h9.png",
+  "27": "work/ang_p0389_h5.png",
+  "28": "work/ang_p0390_h15.png",
+  "29": "work/ang_p0336_h15.png",
+  "30": "work/ang_p0040_h22.png",
+  "31": "work/ang_p0040_h26.png",
+  "32": "work/ang_p0078_h28.png",
+  "33": "work/ang_p0088_h12.png",
+  "34": "work/ang_p0239_h32.png",
+  "35": "work/ang_p0267_h13.png"
+ },
+ "boxes": {
+  "0": [
+   0,
+   0,
+   2763,
+   3725
+  ],
+  "1": [
+   0,
+   0,
+   2770,
+   3605
+  ],
+  "2": [
+   0,
+   0,
+   2752,
+   3644
+  ],
+  "3": [
+   0,
+   0,
+   2643,
+   3551
+  ],
+  "4": [
+   0,
+   0,
+   2692,
+   3552
+  ],
+  "5": [
+   0,
+   0,
+   2657,
+   3528
+  ],
+  "6": [
+   0,
+   0,
+   2658,
+   3534
+  ],
+  "7": [
+   0,
+   0,
+   2680,
+   3538
+  ],
+  "8": [
+   0,
+   0,
+   2752,
+   3731
+  ],
+  "9": [
+   0,
+   0,
+   2639,
+   3529
+  ],
+  "10": [
+   0,
+   0,
+   2651,
+   3556
+  ],
+  "11": [
+   0,
+   0,
+   2725,
+   3724
+  ],
+  "12": [
+   0,
+   0,
+   2767,
+   3720
+  ],
+  "13": [
+   0,
+   0,
+   2712,
+   3689
+  ],
+  "14": [
+   0,
+   0,
+   2729,
+   3696
+  ],
+  "15": [
+   0,
+   0,
+   710,
+   196
+  ],
+  "16": [
+   0,
+   0,
+   2206,
+   196
+  ],
+  "17": [
+   0,
+   0,
+   2203,
+   196
+  ],
+  "18": [
+   0,
+   0,
+   733,
+   196
+  ],
+  "19": [
+   0,
+   0,
+   2225,
+   196
+  ],
+  "20": [
+   0,
+   0,
+   709,
+   194
+  ],
+  "21": [
+   0,
+   0,
+   666,
+   194
+  ],
+  "22": [
+   0,
+   0,
+   847,
+   194
+  ],
+  "23": [
+   0,
+   0,
+   761,
+   194
+  ],
+  "24": [
+   0,
+   0,
+   801,
+   196
+  ],
+  "25": [
+   0,
+   0,
+   754,
+   196
+  ],
+  "26": [
+   0,
+   0,
+   829,
+   194
+  ],
+  "27": [
+   0,
+   0,
+   874,
+   194
+  ],
+  "28": [
+   0,
+   0,
+   2201,
+   194
+  ],
+  "29": [
+   0,
+   0,
+   2236,
+   196
+  ],
+  "30": [
+   0,
+   0,
+   2159,
+   196
+  ],
+  "31": [
+   0,
+   0,
+   2188,
+   194
+  ],
+  "32": [
+   0,
+   0,
+   2124,
+   196
+  ],
+  "33": [
+   0,
+   0,
+   2123,
+   196
+  ],
+  "34": [
+   0,
+   0,
+   2233,
+   335
+  ],
+  "35": [
+   0,
+   0,
+   2203,
+   194
+  ]
+ },
+ "ntext": 30,
+ "no_alpha_merge": true,
+ "rounds": 3,
+ "slant": 8.0,
+ "synth": "fi:f+i,ff:f+f,ſi:ſ+i,ſſ:ſ+ſ,ſſi:ſ+ſ+i,ſt:ſ+t,ct:c+t,fl:f+l",
+ "previous": "work/ang_italic_avg3_heads"
+}

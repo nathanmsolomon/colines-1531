@@ -1,0 +1,31 @@
+{
+ "name": "colines",
+ "description": "Reconstructed from books printed by Simon de Colines, Paris (roman: Terentianus Maurus, De literis, 1531, BSB Munich; italic: Anghiera, Extraict ou recueil des isles, 1532, John Carter Brown Library). Founts as identified by H.D.L. Vervliet (2003). Each glyph is the registered average of its printed impressions; spacing solved from printed neighbours. 1000 units = measured body.",
+ "win_meta": true,
+ "ascii_names": true,
+ "min_area": 30,
+ "drop_extra_lines": true,
+ "min_book": 5,
+ "below": 0.36,
+ "medoid_ref": true,
+ "per_letter_rng": true,
+ "avg_jobs": 3,
+ "align_jobs": 4,
+ "split_half": true,
+ "sb_mode": "scale",
+ "median_capital": false,
+ "unseen_median": true,
+ "fix_degenerate": null,
+ "check_build": true,
+ "check_glyphs": true,
+ "check_refs": {},
+ "_why": "Settings of the shared type-revival library for this project (read by typelib_profile.py).",
+ "mark_ligs": true,
+ "release": {
+  "version": "1.000",
+  "url": "https://github.com/nathanmsolomon/colines-1531",
+  "rfn": "Colines Gros-romain",
+  "describe_clean": "Reconstructed from books printed by Simon de Colines, Paris: the 1531 Great Primer roman (Terentianus Maurus, De literis, BSB Munich) and the 1532 Great Primer chancery italic (Anghiera, Extraict ou recueil des isles, John Carter Brown Library). Each glyph is the registered average of its printed impressions; spacing is solved from printed neighbours. Letters without reliable impressions are left out. 1000 units = the measured body.",
+  "describe_impression": "Reconstructed from books printed by Simon de Colines, Paris: the 1531 Great Primer roman (Terentianus Maurus, De literis, BSB Munich) and the 1532 Great Primer chancery italic (Anghiera, Extraict ou recueil des isles, John Carter Brown Library). Each glyph is one typical real impression, with its ink spread. Letters without reliable impressions are left out. 1000 units = the measured body."
+ }
+}

@@ -1,0 +1,147 @@
+{
+ "name": "ter_roman",
+ "family": "Colines Gros-romain",
+ "style": "Roman",
+ "trans": {
+  "0": "transcriptions/ter_p0010.txt",
+  "1": "transcriptions/ter_p0014.txt",
+  "2": "transcriptions/ter_p0016.txt",
+  "3": "transcriptions/ter_p0009.txt",
+  "4": "transcriptions/ter_p0011.txt",
+  "5": "transcriptions/ter_p0012.txt",
+  "6": "transcriptions/ter_p0013.txt",
+  "7": "transcriptions/ter_p0015.txt",
+  "8": "transcriptions/ter_p0017.txt",
+  "9": "transcriptions/ter_p0100.txt",
+  "10": "transcriptions/ter_p0106_h17.txt",
+  "11": "transcriptions/ter_p0055_h21k.txt",
+  "12": "transcriptions/ter_p0075_h7.txt",
+  "13": "transcriptions/ter_p0130_h17.txt",
+  "14": "transcriptions/ter_p0130_h27.txt",
+  "16": "transcriptions/ter_p0085_h4.txt"
+ },
+ "images": {
+  "0": "work/ter_p0010.png",
+  "1": "work/ter_p0014.png",
+  "2": "work/ter_p0016.png",
+  "3": "work/ter_p0009.png",
+  "4": "work/ter_p0011.png",
+  "5": "work/ter_p0012.png",
+  "6": "work/ter_p0013.png",
+  "7": "work/ter_p0015.png",
+  "8": "work/ter_p0017.png",
+  "9": "work/ter_p0100.png",
+  "10": "work/ter_p0106_h17.png",
+  "11": "work/ter_p0055_h21k.png",
+  "12": "work/ter_p0075_h7.png",
+  "13": "work/ter_p0130_h17.png",
+  "14": "work/ter_p0130_h27.png",
+  "16": "work/ter_p0085_h4.png"
+ },
+ "boxes": {
+  "0": [
+   0,
+   0,
+   2596,
+   4111
+  ],
+  "1": [
+   0,
+   0,
+   2848,
+   4091
+  ],
+  "2": [
+   0,
+   0,
+   2808,
+   4081
+  ],
+  "3": [
+   0,
+   0,
+   2566,
+   4113
+  ],
+  "4": [
+   0,
+   0,
+   2572,
+   4121
+  ],
+  "5": [
+   0,
+   0,
+   2578,
+   4099
+  ],
+  "6": [
+   0,
+   0,
+   2566,
+   4099
+  ],
+  "7": [
+   0,
+   0,
+   2566,
+   4095
+  ],
+  "8": [
+   0,
+   0,
+   2588,
+   4103
+  ],
+  "9": [
+   0,
+   0,
+   2537,
+   4133
+  ],
+  "10": [
+   0,
+   0,
+   2592,
+   477
+  ],
+  "11": [
+   0,
+   0,
+   705,
+   196
+  ],
+  "12": [
+   0,
+   0,
+   2174,
+   198
+  ],
+  "13": [
+   0,
+   0,
+   2145,
+   196
+  ],
+  "14": [
+   0,
+   0,
+   2560,
+   196
+  ],
+  "16": [
+   0,
+   0,
+   2339,
+   196
+  ]
+ },
+ "ntext": 35,
+ "no_alpha_merge": true,
+ "rounds": 3,
+ "synth": "ſi:ſ+i,ſſ:ſ+ſ,ſſi:ſ+ſ+i,ſt:ſ+t,ct:c+t,fi:f+i,fl:f+l,ffi:f+f+i,ff:f+f",
+ "previous": "work/ter_roman_avg3_p100",
+ "_note_nov12": "copy 11 is the left part of ter_p0055_h21 ('Refert nihili k'; the p of prior is whitened in the block and upset the word spans). Copy 15 (ter_p0103_h29, 'B velut, vel k') was REMOVED: that line is a smaller fount (x-height 48 px against 57).",
+ "borrow": "X:work/ang_italic_avg3:1.0",
+ "_note_borrow": "round 1 has no X template (the gap cut never yields one), so the italic's upright X is borrowed ONLY to find the letter; rounds 2-3 use the roman's own X"
+}
