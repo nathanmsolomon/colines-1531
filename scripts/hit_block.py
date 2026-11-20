@@ -1,6 +1,6 @@
 """Cut a small block around OCR hit lines (from hit_sheets.py) for use as a copy.
 
-Usage: python -I hit_block.py <ang|ter> <page> <line>[-<line>] ...     e.g. ter p0106 17-19
+Usage: python -I hit_block.py <ang|ter|pau|pai> <page> <line>[-<line>] ...     e.g. ter p0106 17-19
 
 <line> numbers are the ALTO text lines as the hit sheets label them (L17 ...). The block is
 the union of those lines' boxes, padded by a quarter of a line height, in the column the
@@ -20,7 +20,14 @@ from ocr_draft import convert
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BOOK = {"ang": ("anghiera1532", "work/ocr_scan", 500, "auto", 116.0),     # line pitch in page px
-        "ter": ("terentianus1531", "work/ter_scan", 297, 0, 69.5)}
+        "ter": ("terentianus1531", "work/ter_scan", 297, 0, 69.5),
+        # Paulus Aegineta 1532: the text is the roman (pau), the Annotationes the italic (pai); one OCR (pau_)
+        "pau": ("paulus1532", "work/pau_scan", 300, 0, 70.0),
+        "pai": ("paulus1532", "work/pau_scan", 300, "auto", 70.0)}
+OCR_PREFIX = {"pai": "pau"}
+# block bottom below the last baseline, in line pitches: Paulus' descenders reach 0.45 and
+# touched the edge, so the edge rule below took them for the next line's ascenders
+BOTTOM = {"pau": 0.62, "pai": 0.62}
 PY = [sys.executable, "-I", "-X", "utf8"]
 
 
@@ -58,12 +65,12 @@ def main():
             continue
         lo, _, hi = a.partition("-")
         want += range(int(lo), int(hi or lo) + 1)
-    L = alto_lines(os.path.join(ROOT, ocr, f"{key}_{page}_v6.xml"))
+    L = alto_lines(os.path.join(ROOT, ocr, f"{OCR_PREFIX.get(key, key)}_{page}_v6.xml"))
     sel = [L[i - 1] for i in want]
     x0 = min(b[0] for b, _, _ in sel); x1 = max(b[0] + b[2] for b, _, _ in sel)
     # from just above the first line's capitals to below the last line's descenders
     b0, b1 = min(z for _, _, z in sel), max(z for _, _, z in sel)
-    y0, y1 = int(b0 - 0.95 * P), int(b1 + 0.45 * P)
+    y0, y1 = int(b0 - 0.95 * P), int(b1 + BOTTOM.get(key, 0.45) * P)
     h = int(P)
     src = f"source/books/{book}/{page}.jpg"
     W, H = Image.open(os.path.join(ROOT, src)).size

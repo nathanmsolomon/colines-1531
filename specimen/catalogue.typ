@@ -5,7 +5,7 @@
 #v(4mm)
 #text(size: 8.5pt)[Each cell shows a glyph at 24 pt. Under the clean fonts, the number is how many printed impressions the glyph was averaged from (1 or 2: a single eye-checked impression). Ligatures are reached by typing their letters (ct needs the historical-ligature feature; p̃ and q̃ are p or q followed by U+0303). Nothing is set in a fallback font.]
 #v(3mm)
-#block(breakable: false)[#heading(level: 2)[Roman, 1531: 80 glyphs] #text(size: 8pt)[Terentianus Maurus, De literis, syllabis, pedibus et metris (Paris: Colines, 1531). BSB Munich, bsb10198271. Body 16.9 pt.]]
+#block(breakable: false)[#heading(level: 2)[Roman, 1531: 92 glyphs] #text(size: 8pt)[Terentianus Maurus, De literis, syllabis, pedibus et metris (Paris: Colines, 1531). BSB Munich, bsb10198271. Figures, Z, z and the double hyphen from Paulus Aegineta (Colines, 1532). Body 16.9 pt.]]
 #grid(columns: 10, row-gutter: 2.5mm, column-gutter: 1mm,
   box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "A") #linebreak() #lab[U+0041 · 24]]],
   box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "B") #linebreak() #lab[U+0042 · 3]]],
@@ -28,6 +28,7 @@
   box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "T") #linebreak() #lab[U+0054 · 11]]],
   box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "V") #linebreak() #lab[U+0056 · 16]]],
   box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "X") #linebreak() #lab[U+0058 · 3]]],
+  box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "Z") #linebreak() #lab[U+005A · 2]]],
   box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "a") #linebreak() #lab[U+0061 · 129]]],
   box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "à") #linebreak() #lab[U+00E0 · 25]]],
   box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "á") #linebreak() #lab[U+00E1 · 5]]],
@@ -66,7 +67,7 @@
   box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "v") #linebreak() #lab[U+0076 · 126]]],
   box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "x") #linebreak() #lab[U+0078 · 41]]],
   box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "y") #linebreak() #lab[U+0079 · 9]]],
-  box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "z") #linebreak() #lab[U+007A · 1]]],
+  box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "z") #linebreak() #lab[U+007A · 3]]],
   box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "æ") #linebreak() #lab[U+00E6 · 81]]],
   box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "œ") #linebreak() #lab[U+0153 · 5]]],
   box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "ſ") #linebreak() #lab[U+017F · 122]]],
@@ -78,6 +79,16 @@
   box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "ﬂ") #linebreak() #lab[U+FB02 · 4]]],
   box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "ﬃ") #linebreak() #lab[U+FB03 · 6]]],
   box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "ﬅ") #linebreak() #lab[U+FB05 · 105]]],
+  box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "0") #linebreak() #lab[U+0030 · 9]]],
+  box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "1") #linebreak() #lab[U+0031 · 22]]],
+  box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "2") #linebreak() #lab[U+0032 · 12]]],
+  box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "3") #linebreak() #lab[U+0033 · 5]]],
+  box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "4") #linebreak() #lab[U+0034 · 4]]],
+  box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "5") #linebreak() #lab[U+0035 · 8]]],
+  box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "6") #linebreak() #lab[U+0036 · 9]]],
+  box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "7") #linebreak() #lab[U+0037 · 6]]],
+  box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "8") #linebreak() #lab[U+0038 · 10]]],
+  box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "9") #linebreak() #lab[U+0039 · 10]]],
   box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "&") #linebreak() #lab[U+0026 · 23]]],
   box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "(") #linebreak() #lab[U+0028 · 22]]],
   box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", ")") #linebreak() #lab[U+0029 · 24]]],
@@ -86,10 +97,11 @@
   box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", ".") #linebreak() #lab[U+002E · 77]]],
   box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", ":") #linebreak() #lab[U+003A · 37]]],
   box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", ";") #linebreak() #lab[U+003B · 35]]],
-  box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "?") #linebreak() #lab[U+003F · 34]]])
-#v(2mm) #text(size: 8.5pt)[*Not in this font:* *J*, *U*, *W*, Y, Z, *w*, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, !, '. (Bold: not yet cut in these founts in 1531–32.)]
+  box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "?") #linebreak() #lab[U+003F · 34]]],
+  box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "⸗") #linebreak() #lab[U+2E17 · 9]]])
+#v(2mm) #text(size: 8.5pt)[*Not in this font:* *J*, *U*, *W*, Y, *w*, !, '. (Bold: not yet cut in these founts in 1531–32.)]
 #v(6mm)
-#block(breakable: false)[#heading(level: 2)[Italic, 1532: 77 glyphs] #text(size: 8pt)[Anghiera, Extraict ou recueil des isles nouvellement trouvees (Paris: Colines, 1532). John Carter Brown Library, via the Internet Archive. Body 16.7 pt.]]
+#block(breakable: false)[#heading(level: 2)[Italic, 1532: 77 glyphs] #text(size: 8pt)[Anghiera, Extraict ou recueil des isles nouvellement trouvees (Paris: Colines, 1532). John Carter Brown Library, via the Internet Archive. Figures also from the Annotationes of Paulus Aegineta (Colines, 1532). Body 16.7 pt.]]
 #grid(columns: 10, row-gutter: 2.5mm, column-gutter: 1mm,
   box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "italic", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "A") #linebreak() #lab[U+0041 · 11]]],
   box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "italic", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "B") #linebreak() #lab[U+0042 · 6]]],
@@ -151,16 +163,16 @@
   box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "italic", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "ﬀ") #linebreak() #lab[U+FB00 · 9]]],
   box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "italic", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "ﬂ") #linebreak() #lab[U+FB02 · 3]]],
   box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "italic", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "ﬅ") #linebreak() #lab[U+FB05 · 114]]],
-  box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "italic", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "0") #linebreak() #lab[U+0030 · 3]]],
-  box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "italic", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "1") #linebreak() #lab[U+0031 · 2]]],
-  box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "italic", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "2") #linebreak() #lab[U+0032 · 1]]],
-  box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "italic", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "3") #linebreak() #lab[U+0033 · 3]]],
-  box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "italic", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "4") #linebreak() #lab[U+0034 · 1]]],
-  box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "italic", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "5") #linebreak() #lab[U+0035 · 4]]],
-  box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "italic", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "6") #linebreak() #lab[U+0036 · 1]]],
-  box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "italic", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "7") #linebreak() #lab[U+0037 · 3]]],
-  box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "italic", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "8") #linebreak() #lab[U+0038 · 2]]],
-  box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "italic", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "9") #linebreak() #lab[U+0039 · 1]]],
+  box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "italic", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "0") #linebreak() #lab[U+0030 · 10]]],
+  box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "italic", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "1") #linebreak() #lab[U+0031 · 33]]],
+  box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "italic", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "2") #linebreak() #lab[U+0032 · 22]]],
+  box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "italic", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "3") #linebreak() #lab[U+0033 · 17]]],
+  box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "italic", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "4") #linebreak() #lab[U+0034 · 8]]],
+  box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "italic", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "5") #linebreak() #lab[U+0035 · 10]]],
+  box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "italic", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "6") #linebreak() #lab[U+0036 · 5]]],
+  box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "italic", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "7") #linebreak() #lab[U+0037 · 10]]],
+  box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "italic", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "8") #linebreak() #lab[U+0038 · 7]]],
+  box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "italic", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "9") #linebreak() #lab[U+0039 · 7]]],
   box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "italic", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "&") #linebreak() #lab[U+0026 · 83]]],
   box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "italic", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "(") #linebreak() #lab[U+0028 · 2]]],
   box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "italic", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", ")") #linebreak() #lab[U+0029 · 2]]],
@@ -170,7 +182,7 @@
   box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain", style: "italic", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", ":") #linebreak() #lab[U+003A · 12]]])
 #v(2mm) #text(size: 8.5pt)[*Not in this font:* *J*, K, *U*, *W*, j, k, *w*, ;, ?, !, ', œ. (Bold: not yet cut in these founts in 1531–32.)]
 #v(6mm)
-#block(breakable: false)[#heading(level: 2)[Impression Roman, 1531: 80 glyphs] #text(size: 8pt)[As the Roman, but each glyph is the single most typical real impression. Body 16.9 pt.]]
+#block(breakable: false)[#heading(level: 2)[Impression Roman, 1531: 92 glyphs] #text(size: 8pt)[As the Roman, but each glyph is the single most typical real impression. Body 16.9 pt.]]
 #grid(columns: 10, row-gutter: 2.5mm, column-gutter: 1mm,
   box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain Impression", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "A") #linebreak() #lab[U+0041]]],
   box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain Impression", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "B") #linebreak() #lab[U+0042]]],
@@ -193,6 +205,7 @@
   box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain Impression", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "T") #linebreak() #lab[U+0054]]],
   box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain Impression", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "V") #linebreak() #lab[U+0056]]],
   box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain Impression", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "X") #linebreak() #lab[U+0058]]],
+  box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain Impression", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "Z") #linebreak() #lab[U+005A]]],
   box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain Impression", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "a") #linebreak() #lab[U+0061]]],
   box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain Impression", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "à") #linebreak() #lab[U+00E0]]],
   box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain Impression", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "á") #linebreak() #lab[U+00E1]]],
@@ -243,6 +256,16 @@
   box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain Impression", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "ﬂ") #linebreak() #lab[U+FB02]]],
   box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain Impression", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "ﬃ") #linebreak() #lab[U+FB03]]],
   box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain Impression", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "ﬅ") #linebreak() #lab[U+FB05]]],
+  box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain Impression", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "0") #linebreak() #lab[U+0030]]],
+  box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain Impression", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "1") #linebreak() #lab[U+0031]]],
+  box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain Impression", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "2") #linebreak() #lab[U+0032]]],
+  box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain Impression", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "3") #linebreak() #lab[U+0033]]],
+  box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain Impression", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "4") #linebreak() #lab[U+0034]]],
+  box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain Impression", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "5") #linebreak() #lab[U+0035]]],
+  box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain Impression", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "6") #linebreak() #lab[U+0036]]],
+  box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain Impression", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "7") #linebreak() #lab[U+0037]]],
+  box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain Impression", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "8") #linebreak() #lab[U+0038]]],
+  box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain Impression", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "9") #linebreak() #lab[U+0039]]],
   box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain Impression", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "&") #linebreak() #lab[U+0026]]],
   box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain Impression", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "(") #linebreak() #lab[U+0028]]],
   box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain Impression", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", ")") #linebreak() #lab[U+0029]]],
@@ -251,8 +274,9 @@
   box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain Impression", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", ".") #linebreak() #lab[U+002E]]],
   box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain Impression", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", ":") #linebreak() #lab[U+003A]]],
   box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain Impression", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", ";") #linebreak() #lab[U+003B]]],
-  box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain Impression", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "?") #linebreak() #lab[U+003F]]])
-#v(2mm) #text(size: 8.5pt)[*Not in this font:* *J*, *U*, *W*, Y, Z, *w*, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, !, '. (Bold: not yet cut in these founts in 1531–32.)]
+  box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain Impression", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "?") #linebreak() #lab[U+003F]]],
+  box(width: 100%)[#align(center)[#text(font: "Colines Gros-romain Impression", style: "normal", size: 24pt, features: ("liga", "hlig", "ccmp"), top-edge: "ascender", bottom-edge: "descender", "⸗") #linebreak() #lab[U+2E17]]])
+#v(2mm) #text(size: 8.5pt)[*Not in this font:* *J*, *U*, *W*, Y, *w*, !, '. (Bold: not yet cut in these founts in 1531–32.)]
 #v(6mm)
 #block(breakable: false)[#heading(level: 2)[Impression Italic, 1532: 77 glyphs] #text(size: 8pt)[As the Italic, but each glyph is the single most typical real impression. Body 16.7 pt.]]
 #grid(columns: 10, row-gutter: 2.5mm, column-gutter: 1mm,

@@ -58,6 +58,7 @@ def main():
     reuse = "--reuse" in sys.argv      # keep existing alignment; redo merge, spacing, build
     # (--reuse --respace also keeps the book-merged averages in <name>_avgS: metrics and builds only)
     nm = C["name"]; W = "work"
+    WC = ["--width_cuts"] if C.get("width_cuts") else []   # word breaks fitted to word widths (word_cuts.py)
     imgs = C.get("images") or {p: f"{W}/page{p}.png" for p in C["boxes"]}
     copies = sorted(C["boxes"])
     TR = C["trans"] if isinstance(C["trans"], dict) else {p: C["trans"] for p in copies}
@@ -66,13 +67,13 @@ def main():
     if reuse:
         tpl = f"{W}/{nm}_avg{rounds}"
     elif not C.get("skip_segment"):
-        each(lambda p: run([f"{S}/segment.py", imgs[p], *map(str, C["boxes"][p]), TR[p], f"{W}/{nm}_seg_p{p}"]), copies)
+        each(lambda p: run([f"{S}/segment.py", imgs[p], *map(str, C["boxes"][p]), TR[p], f"{W}/{nm}_seg_p{p}"] + WC), copies)
         run([f"{S}/average.py", f"{W}/{nm}_avg0"] + [f"{W}/{nm}_seg_p{p}" for p in copies])
         tpl = f"{W}/{nm}_avg0"
     else:
         tpl = C["start_avg"]
     for r in ([] if reuse else range(1, rounds + 1)):
-        extra = []
+        extra = list(WC)
         spec = ",".join(x for x in [C.get("borrow") if r == 1 else None, C.get("borrow_all")] if x)
         if spec:
             extra.append("--borrow=" + spec)
@@ -98,7 +99,7 @@ def main():
         for p in copies:
             seg = f"{W}/{nm}_aseg_p{p}"
             shutil.rmtree(seg, ignore_errors=True)
-            subprocess.run(PY + [f"{S}/segment.py", imgs[p], *map(str, C["boxes"][p]), TR[p], seg], capture_output=True)
+            subprocess.run(PY + [f"{S}/segment.py", imgs[p], *map(str, C["boxes"][p]), TR[p], seg] + WC, capture_output=True)
             if os.path.exists(f"{seg}/instances.json"):
                 clean[p] = [i for i in json.load(open(f"{seg}/instances.json", encoding="utf-8"))["instances"] if i["line"] >= C["ntext"]]
         # a copy's gap-cut alphabet line is trusted when every glyph's width agrees
@@ -254,12 +255,42 @@ def main():
                 json.dump(dict(cur, instances=inst), open(f"{out}/instances.json", "w", encoding="utf-8"), ensure_ascii=False)
                 merged[idx] = out
             print("  prefer_seg: clean gap-cut words used where available;", ndrop, "aligned words dropped as label-shifted")
+        if C.get("drop_words"):
+            # words found by eye to be mis-cut in one copy (label slid onto a neighbour) and not caught above:
+            # "drop_words": {"<copy>": [[line, word], ...]}; the other copy's cut of the word is kept
+            for idx, p in enumerate(copies):
+                dw = {tuple(x) for x in C["drop_words"].get(str(p), [])}
+                if not dw:
+                    continue
+                src = merged[idx]; cur = json.load(open(f"{src}/instances.json", encoding="utf-8"))
+                n0 = len(cur["instances"])
+                cur["instances"] = [i for i in cur["instances"] if (i["line"], i["word"]) not in dw]
+                json.dump(cur, open(f"{src}/instances.json", "w", encoding="utf-8"), ensure_ascii=False)
+                print(f"  drop_words: copy {p}: {n0 - len(cur['instances'])} letters dropped")
         if True:   # always re-average the final instance set
             tpl = f"{W}/{nm}_avgF"; shutil.rmtree(tpl, ignore_errors=True)
             run([f"{S}/average.py", tpl] + merged)
         al = merged
     else:
         al = [f"{W}/{nm}_al_p{p}" for p in copies]
+        if C.get("drop_words"):
+            # no alphabet line to merge, but words found by eye to be mis-cut still go:
+            # copy each alignment to <name>_fin_p<p> without them and re-average
+            al = []
+            for p in copies:
+                dw = {tuple(x) for x in C["drop_words"].get(str(p), [])}
+                src = f"{W}/{nm}_al_p{p}"; out = f"{W}/{nm}_fin_p{p}"
+                shutil.rmtree(out, ignore_errors=True); os.makedirs(out)
+                cur = json.load(open(f"{src}/instances.json", encoding="utf-8")); inst = []
+                for i in cur["instances"]:
+                    if (i["line"], i["word"]) in dw:
+                        continue
+                    fn = f"{len(inst):05d}.png"; shutil.copy(f"{src}/{i['file']}", f"{out}/{fn}"); inst.append(dict(i, file=fn))
+                json.dump(dict(cur, instances=inst), open(f"{out}/instances.json", "w", encoding="utf-8"), ensure_ascii=False)
+                print(f"  drop_words: copy {p}: {len(cur['instances']) - len(inst)} letters dropped")
+                al.append(out)
+            tpl = f"{W}/{nm}_avgF"; shutil.rmtree(tpl, ignore_errors=True)
+            run([f"{S}/average.py", tpl] + al)
     if C.get("relabel"):
         # a sheet line whose labels slid after a bad split (Brevier roman: on the
         # alphabet line S and T merged, so each later capital took the previous
@@ -350,7 +381,8 @@ def main():
                                        capture_output=True, text=True, encoding="utf-8").stdout.strip().splitlines()
     if _prof.get("check_glyphs") and os.path.exists(f"{S}/check_glyphs.py"):
         # is each glyph the letter its label says: class, cross-source and agreement checks
-        refs_ = ",".join(_prof.get("check_refs").get(style, []))
+        # a config's own "check_refs" (list of avg dirs) wins: blackletter founts have no style refs in the profile
+        refs_ = ",".join(C.get("check_refs") or _prof.get("check_refs").get(style, []))
         g_ = subprocess.run(PY + [f"{S}/check_glyphs.py", tpl, "--ref=" + refs_] + (["--italic"] if slant else []),
                             capture_output=True, text=True, encoding="utf-8")
         res["glyph_checks"] = (g_.stdout.strip().splitlines() or [g_.stderr.strip()[-300:]])[-1]

@@ -186,6 +186,11 @@ def main():
         # the nwords-1 largest gaps are word spaces
         order = sorted(range(len(gaps)), key=lambda k: -gaps[k])[: nwords - 1]
         cuts = sorted(order)
+        if "--width_cuts" in sys.argv:
+            # pied settings: breaks that also fit each word's expected width (word_cuts.py)
+            import word_cuts
+            cuts = word_cuts.cut([(g["x0"], g["x1"]) for g in glyphs],
+                                 [word_cuts.word_w([t.strip("{}") for t in w]) for w in twords], hmed)
         gw, start = [], 0
         for k in cuts:
             gw.append(glyphs[start:k + 1]); start = k + 1

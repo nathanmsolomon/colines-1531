@@ -53,6 +53,10 @@ BOOKS = [
     ("bsb10172343", "mdz", 1533, "BSB: Nebrija, In Cosmographiae libros introductorium (italic only)"),
     ("bsb10186686", "mdz", 1533, "BSB: Bonae valetudinis conservandae praecepta (italic only)"),
     ("bsb11264754", "mdz", 1533, "BSB: Caelius Aurelianus, Liber celerum (italic only)"),
+    ("Z176413107", "onb", 1531, "ONB: Eutropius + Paulus Diaconus, De gestis Romanorum (BP16 census, Nov 18)"),
+    ("Z186367900", "onb", 1531, "ONB: Sacrobosco, Textus de sphaera (BP16 census, Nov 18)"),
+    ("Z177527005", "onb", 1531, "ONB: Bovillus, De raptu divi Pauli (BP16 census, Nov 18)"),
+    ("bsb10139769", "mdz", 1532, "BSB: Paulus Aegineta, Opus de re medica (BP16 census, Nov 18)"),
 ]
 CONTROLS = [("terentianus1531", 297, "control: Terentianus 1531 (MDZ, pilot roman)"),
             ("anghiera1532", 500, "control: Anghiera 1532 (JCB, pilot italic)")]
@@ -94,8 +98,8 @@ def fetch_ia(bid, n):
     return ppi
 
 
-def fetch_mdz(bid, n):
-    man = json.loads(get_bytes(f"https://api.digitale-sammlungen.de/iiif/presentation/v2/{bid}/manifest") or b"{}")
+def fetch_mdz(bid, n, url=None):
+    man = json.loads(get_bytes(url or f"https://api.digitale-sammlungen.de/iiif/presentation/v2/{bid}/manifest") or b"{}")
     cv = man.get("sequences", [{}])[0].get("canvases", [])
     d = os.path.join(OUT, bid); os.makedirs(d, exist_ok=True)
     json.dump({"ppi": "~300 (MDZ, calibrated on Garamont books; some 400)", "imagecount": len(cv),
@@ -144,6 +148,10 @@ def main():
     I, xi = load_templates(os.path.join(ROOT, "work", "ang_italic_avg3"))
     allrows, summ = [], []
     jobs = [(b, src, yr, note) for b, src, yr, note in BOOKS] + [(b, "ctl", None, note) for b, _, note in CONTROLS]
+    if "--only" in sys.argv:    # e.g. --only bsb10139769 : just these books (+ the local controls)
+        only = set(sys.argv[sys.argv.index("--only") + 1].split(","))
+        jobs = [j for j in jobs if j[0] in only or j[1] == "ctl"]
+    TAG = sys.argv[sys.argv.index("--tag") + 1] if "--tag" in sys.argv else "screen_nov17"
     for bid, src, yr, note in jobs:
         print("==", bid, note, flush=True)
         if src == "ctl":
@@ -152,7 +160,9 @@ def main():
             pages = [pages[i] for i in pick(len(pages), n)]
         else:
             if "--no-fetch" not in sys.argv:
-                ppi = fetch_ia(bid, n) if src == "ia" else fetch_mdz(bid, n)
+                ppi = (fetch_ia(bid, n) if src == "ia" else
+                       fetch_mdz(bid, n, f"https://iiif.onb.ac.at/presentation/ABO/+{bid}/manifest/") if src == "onb"   # ONB ABO (Google scans)
+                       else fetch_mdz(bid, n))
             else:
                 ppi = json.load(open(os.path.join(OUT, bid, "meta.json"), encoding="utf-8")).get("ppi")
             pages = sorted(glob.glob(os.path.join(OUT, bid, "p*.jpg")))
@@ -166,16 +176,16 @@ def main():
             continue
         best = max(rows, key=lambda r: max(r["roman"], r["italic"]))
         contact(os.path.join(OUT if src != "ctl" else os.path.join(ROOT, "source", "books"),
-                             bid, best["page"]), os.path.join(ROOT, "work", f"screen_nov17_{bid}.jpg"))
+                             bid, best["page"]), os.path.join(ROOT, "work", f"{TAG}_{bid}.jpg"))
         med = lambda k: float(np.median([r[k] for r in rows]))
         summ.append(dict(book=bid, year=yr, note=note, stated_ppi=ppi, pages=len(pages), measured=len(rows),
                          px=f"{int(med('w'))}x{int(med('h'))}", pitch=med("pitch_px"), xh=med("xh_px"),
                          roman=med("roman"), italic=med("italic"),
                          roman_max=max(r["roman"] for r in rows), italic_max=max(r["italic"] for r in rows),
                          ppi_if_14=med("ppi_if_14"), ppi_if_24=med("ppi_if_24"), best_page=best["page"]))
-    with open(os.path.join(ROOT, "work", "screen_nov17.csv"), "w", newline="", encoding="utf-8") as f:
+    with open(os.path.join(ROOT, "work", f"{TAG}.csv"), "w", newline="", encoding="utf-8") as f:
         wr = csv.DictWriter(f, fieldnames=list(allrows[0].keys())); wr.writeheader(); wr.writerows(allrows)
-    json.dump(summ, open(os.path.join(ROOT, "work", "screen_nov17.json"), "w", encoding="utf-8"),
+    json.dump(summ, open(os.path.join(ROOT, "work", f"{TAG}.json"), "w", encoding="utf-8"),
               ensure_ascii=False, indent=1)
     for s in summ:
         print(json.dumps(s, ensure_ascii=False))

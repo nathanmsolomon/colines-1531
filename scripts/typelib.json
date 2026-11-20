@@ -22,7 +22,7 @@
  "_why": "Settings of the shared type-revival library for this project (read by typelib_profile.py).",
  "mark_ligs": true,
  "release": {
-  "version": "1.000",
+  "version": "1.100",
   "url": "https://github.com/nathanmsolomon/colines-1531",
   "rfn": "Colines Gros-romain",
   "describe_clean": "Reconstructed from books printed by Simon de Colines, Paris: the 1531 Great Primer roman (Terentianus Maurus, De literis, BSB Munich) and the 1532 Great Primer chancery italic (Anghiera, Extraict ou recueil des isles, John Carter Brown Library). Each glyph is the registered average of its printed impressions; spacing is solved from printed neighbours. Letters without reliable impressions are left out. 1000 units = the measured body.",

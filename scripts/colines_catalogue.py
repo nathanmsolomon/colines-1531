@@ -13,9 +13,9 @@ from fontTools.ttLib import TTFont
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FACES = [  # (heading, font file, typst family, style, avg dir, body pt, source)
     ("Roman, 1531", "ColinesGros-romain-Roman.otf", "Colines Gros-romain", "normal", "work/ter_roman_avg3", 16.9,
-     "Terentianus Maurus, De literis, syllabis, pedibus et metris (Paris: Colines, 1531). BSB Munich, bsb10198271."),
+     "Terentianus Maurus, De literis, syllabis, pedibus et metris (Paris: Colines, 1531). BSB Munich, bsb10198271. Figures, Z, z and the double hyphen from Paulus Aegineta (Colines, 1532)."),
     ("Italic, 1532", "ColinesGros-romain-Italic.otf", "Colines Gros-romain", "italic", "work/ang_italic_avg3", 16.7,
-     "Anghiera, Extraict ou recueil des isles nouvellement trouvees (Paris: Colines, 1532). John Carter Brown Library, via the Internet Archive."),
+     "Anghiera, Extraict ou recueil des isles nouvellement trouvees (Paris: Colines, 1532). John Carter Brown Library, via the Internet Archive. Figures also from the Annotationes of Paulus Aegineta (Colines, 1532)."),
     ("Impression Roman, 1531", "ColinesGros-romainImpression-Roman.otf", "Colines Gros-romain Impression", "normal", None, 16.9,
      "As the Roman, but each glyph is the single most typical real impression."),
     ("Impression Italic, 1532", "ColinesGros-romainImpression-Italic.otf", "Colines Gros-romain Impression", "italic", None, 16.7,

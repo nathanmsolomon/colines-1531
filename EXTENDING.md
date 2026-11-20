@@ -7,9 +7,9 @@ first: its rules (section 4) decide what may go into a font.
 
 - Python 3.12+ and `pip install numpy opencv-python pillow fonttools potracer`.
   The `.sh` scripts need a POSIX shell (Git Bash on Windows).
-- `python -I scripts/fetch_sources.py` downloads both books (about 700 pages) into
-  `source/books/`; `python -I scripts/fetch_sources.py terentianus` (or `anghiera`) for one.
-- `sh scripts/prep_all.sh` cuts the 52 blocks the configs use into `work/` (bit for bit the
+- `python -I scripts/fetch_sources.py` downloads the three books (Paulus adds about 650 pages) into
+  `source/books/`; `python -I scripts/fetch_sources.py terentianus` (or `anghiera`, `paulus`) for one.
+- `sh scripts/prep_all.sh` cuts the 147 blocks the configs use into `work/` (bit for bit the
   blocks the fonts were built from).
 - Typst, for the catalogue and specimen.
 - Only for OCR drafts of new pages: Kraken, with a segmentation model and a recognition

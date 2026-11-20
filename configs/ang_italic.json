@@ -38,7 +38,41 @@
   "32": "transcriptions/ang_p0078_h28.txt",
   "33": "transcriptions/ang_p0088_h12.txt",
   "34": "transcriptions/ang_p0239_h32.txt",
-  "35": "transcriptions/ang_p0267_h13.txt"
+  "35": "transcriptions/ang_p0267_h13.txt",
+  "36": "transcriptions/pai_p0102_h23.txt",
+  "37": "transcriptions/pai_p0102_h38.txt",
+  "38": "transcriptions/pai_p0102_h9.txt",
+  "39": "transcriptions/pai_p0148_h20.txt",
+  "40": "transcriptions/pai_p0149_h28.txt",
+  "41": "transcriptions/pai_p0372_h24.txt",
+  "42": "transcriptions/pai_p0374_h24.txt",
+  "43": "transcriptions/pai_p0464_h11.txt",
+  "44": "transcriptions/pai_p0464_h15.txt",
+  "45": "transcriptions/pai_p0464_h18.txt",
+  "46": "transcriptions/pai_p0464_h21.txt",
+  "47": "transcriptions/pai_p0464_h25.txt",
+  "48": "transcriptions/pai_p0464_h29.txt",
+  "49": "transcriptions/pai_p0464_h33.txt",
+  "50": "transcriptions/pai_p0464_h38.txt",
+  "51": "transcriptions/pai_p0464_h42.txt",
+  "52": "transcriptions/pai_p0464_h46.txt",
+  "53": "transcriptions/pai_p0464_h7.txt",
+  "54": "transcriptions/pai_p0466_h2.txt",
+  "55": "transcriptions/pai_p0466_h36.txt",
+  "56": "transcriptions/pai_p0467_h10.txt",
+  "57": "transcriptions/pai_p0467_h13.txt",
+  "58": "transcriptions/pai_p0467_h2.txt",
+  "59": "transcriptions/pai_p0467_h22.txt",
+  "60": "transcriptions/pai_p0467_h32.txt",
+  "61": "transcriptions/pai_p0467_h36.txt",
+  "62": "transcriptions/pai_p0467_h39.txt",
+  "63": "transcriptions/pai_p0468_h18.txt",
+  "64": "transcriptions/pai_p0468_h21.txt",
+  "65": "transcriptions/pai_p0468_h25.txt",
+  "66": "transcriptions/pai_p0468_h27.txt",
+  "67": "transcriptions/pai_p0468_h36.txt",
+  "68": "transcriptions/pai_p0468_h39.txt",
+  "69": "transcriptions/pai_p0468_h6.txt"
  },
  "images": {
   "0": "work/ang_p0070.png",
@@ -76,7 +110,41 @@
   "32": "work/ang_p0078_h28.png",
   "33": "work/ang_p0088_h12.png",
   "34": "work/ang_p0239_h32.png",
-  "35": "work/ang_p0267_h13.png"
+  "35": "work/ang_p0267_h13.png",
+  "36": "work/pai_p0102_h23.png",
+  "37": "work/pai_p0102_h38.png",
+  "38": "work/pai_p0102_h9.png",
+  "39": "work/pai_p0148_h20.png",
+  "40": "work/pai_p0149_h28.png",
+  "41": "work/pai_p0372_h24.png",
+  "42": "work/pai_p0374_h24.png",
+  "43": "work/pai_p0464_h11.png",
+  "44": "work/pai_p0464_h15.png",
+  "45": "work/pai_p0464_h18.png",
+  "46": "work/pai_p0464_h21.png",
+  "47": "work/pai_p0464_h25.png",
+  "48": "work/pai_p0464_h29.png",
+  "49": "work/pai_p0464_h33.png",
+  "50": "work/pai_p0464_h38.png",
+  "51": "work/pai_p0464_h42.png",
+  "52": "work/pai_p0464_h46.png",
+  "53": "work/pai_p0464_h7.png",
+  "54": "work/pai_p0466_h2.png",
+  "55": "work/pai_p0466_h36.png",
+  "56": "work/pai_p0467_h10.png",
+  "57": "work/pai_p0467_h13.png",
+  "58": "work/pai_p0467_h2.png",
+  "59": "work/pai_p0467_h22.png",
+  "60": "work/pai_p0467_h32.png",
+  "61": "work/pai_p0467_h36.png",
+  "62": "work/pai_p0467_h39.png",
+  "63": "work/pai_p0468_h18.png",
+  "64": "work/pai_p0468_h21.png",
+  "65": "work/pai_p0468_h25.png",
+  "66": "work/pai_p0468_h27.png",
+  "67": "work/pai_p0468_h36.png",
+  "68": "work/pai_p0468_h39.png",
+  "69": "work/pai_p0468_h6.png"
  },
  "boxes": {
   "0": [
@@ -294,6 +362,210 @@
    0,
    2203,
    194
+  ],
+  "36": [
+   0,
+   0,
+   606,
+   220
+  ],
+  "37": [
+   0,
+   0,
+   607,
+   220
+  ],
+  "38": [
+   0,
+   0,
+   618,
+   220
+  ],
+  "39": [
+   0,
+   0,
+   742,
+   220
+  ],
+  "40": [
+   0,
+   0,
+   1067,
+   220
+  ],
+  "41": [
+   0,
+   0,
+   656,
+   220
+  ],
+  "42": [
+   0,
+   0,
+   564,
+   220
+  ],
+  "43": [
+   0,
+   0,
+   808,
+   220
+  ],
+  "44": [
+   0,
+   0,
+   814,
+   220
+  ],
+  "45": [
+   0,
+   0,
+   862,
+   218
+  ],
+  "46": [
+   0,
+   0,
+   964,
+   220
+  ],
+  "47": [
+   0,
+   0,
+   1144,
+   220
+  ],
+  "48": [
+   0,
+   0,
+   810,
+   218
+  ],
+  "49": [
+   0,
+   0,
+   848,
+   220
+  ],
+  "50": [
+   0,
+   0,
+   907,
+   220
+  ],
+  "51": [
+   0,
+   0,
+   1310,
+   218
+  ],
+  "52": [
+   0,
+   0,
+   1138,
+   220
+  ],
+  "53": [
+   0,
+   0,
+   855,
+   218
+  ],
+  "54": [
+   0,
+   0,
+   927,
+   220
+  ],
+  "55": [
+   0,
+   0,
+   912,
+   220
+  ],
+  "56": [
+   0,
+   0,
+   924,
+   220
+  ],
+  "57": [
+   0,
+   0,
+   930,
+   220
+  ],
+  "58": [
+   0,
+   0,
+   980,
+   220
+  ],
+  "59": [
+   0,
+   0,
+   968,
+   220
+  ],
+  "60": [
+   0,
+   0,
+   972,
+   220
+  ],
+  "61": [
+   0,
+   0,
+   968,
+   220
+  ],
+  "62": [
+   0,
+   0,
+   886,
+   220
+  ],
+  "63": [
+   0,
+   0,
+   842,
+   220
+  ],
+  "64": [
+   0,
+   0,
+   842,
+   218
+  ],
+  "65": [
+   0,
+   0,
+   786,
+   220
+  ],
+  "66": [
+   0,
+   0,
+   860,
+   220
+  ],
+  "67": [
+   0,
+   0,
+   884,
+   220
+  ],
+  "68": [
+   0,
+   0,
+   984,
+   220
+  ],
+  "69": [
+   0,
+   0,
+   950,
+   220
   ]
  },
  "ntext": 30,
@@ -301,5 +573,6 @@
  "rounds": 3,
  "slant": 8.0,
  "synth": "fi:f+i,ff:f+f,ſi:ſ+i,ſſ:ſ+ſ,ſſi:ſ+ſ+i,ſt:ſ+t,ct:c+t,fl:f+l",
- "previous": "work/ang_italic_avg3_heads"
+ "previous": "work/ang_italic_avg3_heads",
+ "_note_paulus": "Copies from Paulus Aegineta 1532 (work/pau_* roman, work/pai_* italic) added Nov 20 2026 by work/paulus/harvest.py, aligned against the existing averages; only the target glyphs were re-averaged (see HANDOFF.md)."
 }

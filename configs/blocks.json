@@ -1593,5 +1593,1535 @@
   "rotate": -0.25,
   "channel": "red",
   "out": "work/ang_p0267_h13.png"
+ },
+ "pai_p0464_h7": {
+  "src": "source/books/paulus1532/p0464.jpg",
+  "ppi": 300,
+  "box": [
+   782,
+   628,
+   1192,
+   737
+  ],
+  "blank": [],
+  "slant": 8.75,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pai_p0464_h7.png"
+ },
+ "pai_p0464_h11": {
+  "src": "source/books/paulus1532/p0464.jpg",
+  "ppi": 300,
+  "box": [
+   793,
+   832,
+   1181,
+   942
+  ],
+  "blank": [],
+  "slant": 8.0,
+  "rotate": -0.2,
+  "channel": "red",
+  "out": "work/pai_p0464_h11.png"
+ },
+ "pai_p0464_h15": {
+  "src": "source/books/paulus1532/p0464.jpg",
+  "ppi": 300,
+  "box": [
+   788,
+   1106,
+   1179,
+   1216
+  ],
+  "blank": [],
+  "slant": 8.0,
+  "rotate": -0.65,
+  "channel": "red",
+  "out": "work/pai_p0464_h15.png"
+ },
+ "pai_p0464_h18": {
+  "src": "source/books/paulus1532/p0464.jpg",
+  "ppi": 300,
+  "box": [
+   786,
+   1312,
+   1201,
+   1421
+  ],
+  "blank": [],
+  "slant": 8.0,
+  "rotate": -0.6,
+  "channel": "red",
+  "out": "work/pai_p0464_h18.png"
+ },
+ "pai_p0464_h21": {
+  "src": "source/books/paulus1532/p0464.jpg",
+  "ppi": 300,
+  "box": [
+   793,
+   1520,
+   1259,
+   1630
+  ],
+  "blank": [],
+  "slant": 8.0,
+  "rotate": -0.65,
+  "channel": "red",
+  "out": "work/pai_p0464_h21.png"
+ },
+ "pai_p0464_h25": {
+  "src": "source/books/paulus1532/p0464.jpg",
+  "ppi": 300,
+  "box": [
+   786,
+   1792,
+   1340,
+   1902
+  ],
+  "blank": [],
+  "slant": 9.0,
+  "rotate": -0.25,
+  "channel": "red",
+  "out": "work/pai_p0464_h25.png"
+ },
+ "pai_p0464_h29": {
+  "src": "source/books/paulus1532/p0464.jpg",
+  "ppi": 300,
+  "box": [
+   788,
+   1996,
+   1177,
+   2105
+  ],
+  "blank": [],
+  "slant": 8.0,
+  "rotate": -0.45,
+  "channel": "red",
+  "out": "work/pai_p0464_h29.png"
+ },
+ "pai_p0464_h33": {
+  "src": "source/books/paulus1532/p0464.jpg",
+  "ppi": 300,
+  "box": [
+   799,
+   2198,
+   1207,
+   2308
+  ],
+  "blank": [],
+  "slant": 8.0,
+  "rotate": -0.45,
+  "channel": "red",
+  "out": "work/pai_p0464_h33.png"
+ },
+ "pai_p0464_h38": {
+  "src": "source/books/paulus1532/p0464.jpg",
+  "ppi": 300,
+  "box": [
+   769,
+   2471,
+   1205,
+   2581
+  ],
+  "blank": [],
+  "slant": 8.75,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pai_p0464_h38.png"
+ },
+ "pai_p0464_h42": {
+  "src": "source/books/paulus1532/p0464.jpg",
+  "ppi": 300,
+  "box": [
+   782,
+   2679,
+   1420,
+   2788
+  ],
+  "blank": [],
+  "slant": 8.5,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pai_p0464_h42.png"
+ },
+ "pai_p0464_h46": {
+  "src": "source/books/paulus1532/p0464.jpg",
+  "ppi": 300,
+  "box": [
+   806,
+   2886,
+   1358,
+   2996
+  ],
+  "blank": [],
+  "slant": 8.5,
+  "rotate": 0.15,
+  "channel": "red",
+  "out": "work/pai_p0464_h46.png"
+ },
+ "pai_p0466_h2": {
+  "src": "source/books/paulus1532/p0466.jpg",
+  "ppi": 300,
+  "box": [
+   794,
+   385,
+   1240,
+   495
+  ],
+  "blank": [],
+  "slant": 8.75,
+  "rotate": -0.3,
+  "channel": "red",
+  "out": "work/pai_p0466_h2.png"
+ },
+ "pai_p0466_h36": {
+  "src": "source/books/paulus1532/p0466.jpg",
+  "ppi": 300,
+  "box": [
+   789,
+   2588,
+   1229,
+   2698
+  ],
+  "blank": [],
+  "slant": 8.0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pai_p0466_h36.png"
+ },
+ "pai_p0467_h2": {
+  "src": "source/books/paulus1532/p0467.jpg",
+  "ppi": 300,
+  "box": [
+   1484,
+   356,
+   1958,
+   466
+  ],
+  "blank": [],
+  "slant": 8.0,
+  "rotate": 0.35,
+  "channel": "red",
+  "out": "work/pai_p0467_h2.png"
+ },
+ "pai_p0467_h10": {
+  "src": "source/books/paulus1532/p0467.jpg",
+  "ppi": 300,
+  "box": [
+   1510,
+   914,
+   1956,
+   1024
+  ],
+  "blank": [],
+  "slant": 8.0,
+  "rotate": 0.45,
+  "channel": "red",
+  "out": "work/pai_p0467_h10.png"
+ },
+ "pai_p0467_h13": {
+  "src": "source/books/paulus1532/p0467.jpg",
+  "ppi": 300,
+  "box": [
+   1503,
+   1126,
+   1952,
+   1236
+  ],
+  "blank": [],
+  "slant": 8.0,
+  "rotate": 0.55,
+  "channel": "red",
+  "out": "work/pai_p0467_h13.png"
+ },
+ "pai_p0467_h22": {
+  "src": "source/books/paulus1532/p0467.jpg",
+  "ppi": 300,
+  "box": [
+   1495,
+   1624,
+   1963,
+   1734
+  ],
+  "blank": [],
+  "slant": 8.0,
+  "rotate": 0.5,
+  "channel": "red",
+  "out": "work/pai_p0467_h22.png"
+ },
+ "pai_p0467_h32": {
+  "src": "source/books/paulus1532/p0467.jpg",
+  "ppi": 300,
+  "box": [
+   1562,
+   2329,
+   2032,
+   2439
+  ],
+  "blank": [],
+  "slant": 8.0,
+  "rotate": 0.45,
+  "channel": "red",
+  "out": "work/pai_p0467_h32.png"
+ },
+ "pai_p0467_h36": {
+  "src": "source/books/paulus1532/p0467.jpg",
+  "ppi": 300,
+  "box": [
+   1549,
+   2542,
+   2017,
+   2652
+  ],
+  "blank": [],
+  "slant": 8.0,
+  "rotate": 0.4,
+  "channel": "red",
+  "out": "work/pai_p0467_h36.png"
+ },
+ "pai_p0467_h39": {
+  "src": "source/books/paulus1532/p0467.jpg",
+  "ppi": 300,
+  "box": [
+   1566,
+   2751,
+   1993,
+   2861
+  ],
+  "blank": [],
+  "slant": 8.0,
+  "rotate": 0.35,
+  "channel": "red",
+  "out": "work/pai_p0467_h39.png"
+ },
+ "pai_p0468_h6": {
+  "src": "source/books/paulus1532/p0468.jpg",
+  "ppi": 300,
+  "box": [
+   733,
+   635,
+   1192,
+   745
+  ],
+  "blank": [],
+  "slant": 8.0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pai_p0468_h6.png"
+ },
+ "pai_p0468_h18": {
+  "src": "source/books/paulus1532/p0468.jpg",
+  "ppi": 300,
+  "box": [
+   765,
+   1455,
+   1170,
+   1565
+  ],
+  "blank": [],
+  "slant": 8.0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pai_p0468_h18.png"
+ },
+ "pai_p0468_h21": {
+  "src": "source/books/paulus1532/p0468.jpg",
+  "ppi": 300,
+  "box": [
+   761,
+   1658,
+   1166,
+   1767
+  ],
+  "blank": [],
+  "slant": 8.0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pai_p0468_h21.png"
+ },
+ "pai_p0468_h25": {
+  "src": "source/books/paulus1532/p0468.jpg",
+  "ppi": 300,
+  "box": [
+   753,
+   1933,
+   1130,
+   2043
+  ],
+  "blank": [],
+  "slant": 8.0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pai_p0468_h25.png"
+ },
+ "pai_p0468_h27": {
+  "src": "source/books/paulus1532/p0468.jpg",
+  "ppi": 300,
+  "box": [
+   750,
+   2071,
+   1164,
+   2181
+  ],
+  "blank": [],
+  "slant": 8.0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pai_p0468_h27.png"
+ },
+ "pai_p0468_h36": {
+  "src": "source/books/paulus1532/p0468.jpg",
+  "ppi": 300,
+  "box": [
+   753,
+   2677,
+   1179,
+   2787
+  ],
+  "blank": [],
+  "slant": 8.0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pai_p0468_h36.png"
+ },
+ "pai_p0468_h39": {
+  "src": "source/books/paulus1532/p0468.jpg",
+  "ppi": 300,
+  "box": [
+   757,
+   2881,
+   1233,
+   2991
+  ],
+  "blank": [],
+  "slant": 8.0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pai_p0468_h39.png"
+ },
+ "pai_p0102_h9": {
+  "src": "source/books/paulus1532/p0102.jpg",
+  "ppi": 300,
+  "box": [
+   786,
+   905,
+   1079,
+   1015
+  ],
+  "blank": [],
+  "slant": 8.0,
+  "rotate": 0.25,
+  "channel": "red",
+  "out": "work/pai_p0102_h9.png"
+ },
+ "pai_p0102_h23": {
+  "src": "source/books/paulus1532/p0102.jpg",
+  "ppi": 300,
+  "box": [
+   766,
+   1829,
+   1053,
+   1939
+  ],
+  "blank": [],
+  "slant": 8.0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pai_p0102_h23.png"
+ },
+ "pai_p0102_h38": {
+  "src": "source/books/paulus1532/p0102.jpg",
+  "ppi": 300,
+  "box": [
+   707,
+   2821,
+   991,
+   2931
+  ],
+  "blank": [],
+  "slant": 9.75,
+  "rotate": -0.6,
+  "channel": "red",
+  "out": "work/pai_p0102_h38.png"
+ },
+ "pai_p0372_h24": {
+  "src": "source/books/paulus1532/p0372.jpg",
+  "ppi": 300,
+  "box": [
+   757,
+   1798,
+   1069,
+   1908
+  ],
+  "blank": [],
+  "slant": 8.0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pai_p0372_h24.png"
+ },
+ "pai_p0374_h24": {
+  "src": "source/books/paulus1532/p0374.jpg",
+  "ppi": 300,
+  "box": [
+   774,
+   1888,
+   1040,
+   1998
+  ],
+  "blank": [],
+  "slant": 8.0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pai_p0374_h24.png"
+ },
+ "pai_p0148_h20": {
+  "src": "source/books/paulus1532/p0148.jpg",
+  "ppi": 300,
+  "box": [
+   710,
+   1458,
+   1065,
+   1568
+  ],
+  "blank": [],
+  "slant": 8.0,
+  "rotate": -0.15,
+  "channel": "red",
+  "out": "work/pai_p0148_h20.png"
+ },
+ "pai_p0149_h28": {
+  "src": "source/books/paulus1532/p0149.jpg",
+  "ppi": 300,
+  "box": [
+   1466,
+   1782,
+   1983,
+   1892
+  ],
+  "blank": [],
+  "slant": 8.25,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pai_p0149_h28.png"
+ },
+ "pau_p0412_h30": {
+  "src": "source/books/paulus1532/p0412.jpg",
+  "ppi": 300,
+  "box": [
+   435,
+   1985,
+   1838,
+   2095
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0412_h30.png"
+ },
+ "pau_p0389_h31": {
+  "src": "source/books/paulus1532/p0389.jpg",
+  "ppi": 300,
+  "box": [
+   771,
+   2354,
+   2462,
+   2464
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0389_h31.png"
+ },
+ "pau_p0349_h40": {
+  "src": "source/books/paulus1532/p0349.jpg",
+  "ppi": 300,
+  "box": [
+   960,
+   3039,
+   2462,
+   3149
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": 0.15,
+  "channel": "red",
+  "out": "work/pau_p0349_h40.png"
+ },
+ "pau_p0301_h17": {
+  "src": "source/books/paulus1532/p0301.jpg",
+  "ppi": 300,
+  "box": [
+   896,
+   1114,
+   2436,
+   1223
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0301_h17.png"
+ },
+ "pau_p0380_h34": {
+  "src": "source/books/paulus1532/p0380.jpg",
+  "ppi": 300,
+  "box": [
+   521,
+   2749,
+   1846,
+   2858
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.35,
+  "channel": "red",
+  "out": "work/pau_p0380_h34.png"
+ },
+ "pau_p0356_h18": {
+  "src": "source/books/paulus1532/p0356.jpg",
+  "ppi": 300,
+  "box": [
+   514,
+   1220,
+   1902,
+   1330
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.1,
+  "channel": "red",
+  "out": "work/pau_p0356_h18.png"
+ },
+ "pau_p0388_h33": {
+  "src": "source/books/paulus1532/p0388.jpg",
+  "ppi": 300,
+  "box": [
+   616,
+   2068,
+   1936,
+   2178
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.1,
+  "channel": "red",
+  "out": "work/pau_p0388_h33.png"
+ },
+ "pau_p0495_h3": {
+  "src": "source/books/paulus1532/p0495.jpg",
+  "ppi": 300,
+  "box": [
+   698,
+   424,
+   2379,
+   534
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": 0.1,
+  "channel": "red",
+  "out": "work/pau_p0495_h3.png"
+ },
+ "pau_p0549_h38": {
+  "src": "source/books/paulus1532/p0549.jpg",
+  "ppi": 300,
+  "box": [
+   787,
+   2621,
+   2473,
+   2731
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0549_h38.png"
+ },
+ "pau_p0626_h78": {
+  "src": "source/books/paulus1532/p0626.jpg",
+  "ppi": 300,
+  "box": [
+   251,
+   2848,
+   1888,
+   2958
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": 0.15,
+  "channel": "red",
+  "out": "work/pau_p0626_h78.png"
+ },
+ "pau_p0362_h39": {
+  "src": "source/books/paulus1532/p0362.jpg",
+  "ppi": 300,
+  "box": [
+   231,
+   2627,
+   1953,
+   2737
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0362_h39.png"
+ },
+ "pau_p0506_h33": {
+  "src": "source/books/paulus1532/p0506.jpg",
+  "ppi": 300,
+  "box": [
+   203,
+   2271,
+   1859,
+   2381
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": 0.05,
+  "channel": "red",
+  "out": "work/pau_p0506_h33.png"
+ },
+ "pau_p0088_h37": {
+  "src": "source/books/paulus1532/p0088.jpg",
+  "ppi": 300,
+  "box": [
+   165,
+   2665,
+   1886,
+   2775
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0088_h37.png"
+ },
+ "pau_p0189_h14": {
+  "src": "source/books/paulus1532/p0189.jpg",
+  "ppi": 300,
+  "box": [
+   725,
+   1180,
+   2437,
+   1289
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0189_h14.png"
+ },
+ "pau_p0390_h19": {
+  "src": "source/books/paulus1532/p0390.jpg",
+  "ppi": 300,
+  "box": [
+   188,
+   1284,
+   1924,
+   1677
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0390_h19.png"
+ },
+ "pau_p0082_h13": {
+  "src": "source/books/paulus1532/p0082.jpg",
+  "ppi": 300,
+  "box": [
+   143,
+   1081,
+   1883,
+   1335
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.05,
+  "channel": "red",
+  "out": "work/pau_p0082_h13.png"
+ },
+ "pau_p0436_h25": {
+  "src": "source/books/paulus1532/p0436.jpg",
+  "ppi": 300,
+  "box": [
+   203,
+   1718,
+   1907,
+   1969
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0436_h25.png"
+ },
+ "pau_p0257_h1": {
+  "src": "source/books/paulus1532/p0257.jpg",
+  "ppi": 300,
+  "box": [
+   774,
+   286,
+   926,
+   396
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0257_h1.png"
+ },
+ "pau_p0262_h2": {
+  "src": "source/books/paulus1532/p0262.jpg",
+  "ppi": 300,
+  "box": [
+   1626,
+   278,
+   1769,
+   388
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0262_h2.png"
+ },
+ "pau_p0600_h2": {
+  "src": "source/books/paulus1532/p0600.jpg",
+  "ppi": 300,
+  "box": [
+   1643,
+   305,
+   1784,
+   415
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0600_h2.png"
+ },
+ "pau_p0279_h1": {
+  "src": "source/books/paulus1532/p0279.jpg",
+  "ppi": 300,
+  "box": [
+   754,
+   270,
+   919,
+   380
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0279_h1.png"
+ },
+ "pau_p0623_h1": {
+  "src": "source/books/paulus1532/p0623.jpg",
+  "ppi": 300,
+  "box": [
+   801,
+   260,
+   938,
+   369
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0623_h1.png"
+ },
+ "pau_p0608_h2": {
+  "src": "source/books/paulus1532/p0608.jpg",
+  "ppi": 300,
+  "box": [
+   1637,
+   294,
+   1753,
+   403
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0608_h2.png"
+ },
+ "pau_p0217_h1": {
+  "src": "source/books/paulus1532/p0217.jpg",
+  "ppi": 300,
+  "box": [
+   812,
+   266,
+   949,
+   376
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0217_h1.png"
+ },
+ "pau_p0237_h1": {
+  "src": "source/books/paulus1532/p0237.jpg",
+  "ppi": 300,
+  "box": [
+   779,
+   283,
+   907,
+   393
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0237_h1.png"
+ },
+ "pau_p0563_h1": {
+  "src": "source/books/paulus1532/p0563.jpg",
+  "ppi": 300,
+  "box": [
+   781,
+   267,
+   908,
+   377
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0563_h1.png"
+ },
+ "pau_p0618_h3": {
+  "src": "source/books/paulus1532/p0618.jpg",
+  "ppi": 300,
+  "box": [
+   1685,
+   264,
+   1837,
+   374
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0618_h3.png"
+ },
+ "pau_p0282_h2": {
+  "src": "source/books/paulus1532/p0282.jpg",
+  "ppi": 300,
+  "box": [
+   1684,
+   266,
+   1820,
+   376
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0282_h2.png"
+ },
+ "pau_p0399_h1": {
+  "src": "source/books/paulus1532/p0399.jpg",
+  "ppi": 300,
+  "box": [
+   834,
+   333,
+   956,
+   443
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0399_h1.png"
+ },
+ "pau_p0403_h1": {
+  "src": "source/books/paulus1532/p0403.jpg",
+  "ppi": 300,
+  "box": [
+   769,
+   272,
+   918,
+   382
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0403_h1.png"
+ },
+ "pau_p0187_h1": {
+  "src": "source/books/paulus1532/p0187.jpg",
+  "ppi": 300,
+  "box": [
+   827,
+   282,
+   943,
+   392
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0187_h1.png"
+ },
+ "pau_p0207_h1": {
+  "src": "source/books/paulus1532/p0207.jpg",
+  "ppi": 300,
+  "box": [
+   841,
+   278,
+   950,
+   387
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0207_h1.png"
+ },
+ "pau_p0063_h1": {
+  "src": "source/books/paulus1532/p0063.jpg",
+  "ppi": 300,
+  "box": [
+   735,
+   303,
+   868,
+   413
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0063_h1.png"
+ },
+ "pau_p0213_h1": {
+  "src": "source/books/paulus1532/p0213.jpg",
+  "ppi": 300,
+  "box": [
+   843,
+   243,
+   952,
+   353
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0213_h1.png"
+ },
+ "pau_p0223_h1": {
+  "src": "source/books/paulus1532/p0223.jpg",
+  "ppi": 300,
+  "box": [
+   806,
+   280,
+   954,
+   390
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0223_h1.png"
+ },
+ "pau_p0233_h1": {
+  "src": "source/books/paulus1532/p0233.jpg",
+  "ppi": 300,
+  "box": [
+   809,
+   267,
+   925,
+   376
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0233_h1.png"
+ },
+ "pau_p0243_h1": {
+  "src": "source/books/paulus1532/p0243.jpg",
+  "ppi": 300,
+  "box": [
+   782,
+   268,
+   907,
+   377
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0243_h1.png"
+ },
+ "pau_p0253_h1": {
+  "src": "source/books/paulus1532/p0253.jpg",
+  "ppi": 300,
+  "box": [
+   789,
+   272,
+   915,
+   382
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0253_h1.png"
+ },
+ "pau_p0263_h1": {
+  "src": "source/books/paulus1532/p0263.jpg",
+  "ppi": 300,
+  "box": [
+   819,
+   293,
+   963,
+   403
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0263_h1.png"
+ },
+ "pau_p0273_h1": {
+  "src": "source/books/paulus1532/p0273.jpg",
+  "ppi": 300,
+  "box": [
+   835,
+   240,
+   976,
+   350
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0273_h1.png"
+ },
+ "pau_p0228_h3": {
+  "src": "source/books/paulus1532/p0228.jpg",
+  "ppi": 300,
+  "box": [
+   1634,
+   306,
+   1708,
+   416
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0228_h3.png"
+ },
+ "pau_p0238_h2": {
+  "src": "source/books/paulus1532/p0238.jpg",
+  "ppi": 300,
+  "box": [
+   1564,
+   265,
+   1666,
+   375
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0238_h2.png"
+ },
+ "pau_p0258_h2": {
+  "src": "source/books/paulus1532/p0258.jpg",
+  "ppi": 300,
+  "box": [
+   1711,
+   275,
+   1838,
+   385
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0258_h2.png"
+ },
+ "pau_p0278_h2": {
+  "src": "source/books/paulus1532/p0278.jpg",
+  "ppi": 300,
+  "box": [
+   1668,
+   258,
+   1798,
+   368
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0278_h2.png"
+ },
+ "pau_p0200_h2": {
+  "src": "source/books/paulus1532/p0200.jpg",
+  "ppi": 300,
+  "box": [
+   1626,
+   291,
+   1749,
+   401
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0200_h2.png"
+ },
+ "pau_p0230_h2": {
+  "src": "source/books/paulus1532/p0230.jpg",
+  "ppi": 300,
+  "box": [
+   1648,
+   271,
+   1739,
+   381
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0230_h2.png"
+ },
+ "pau_p0240_h2": {
+  "src": "source/books/paulus1532/p0240.jpg",
+  "ppi": 300,
+  "box": [
+   1618,
+   293,
+   1723,
+   403
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0240_h2.png"
+ },
+ "pau_p0260_h2": {
+  "src": "source/books/paulus1532/p0260.jpg",
+  "ppi": 300,
+  "box": [
+   1658,
+   275,
+   1796,
+   385
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0260_h2.png"
+ },
+ "pau_p0270_h2": {
+  "src": "source/books/paulus1532/p0270.jpg",
+  "ppi": 300,
+  "box": [
+   1657,
+   261,
+   1778,
+   371
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0270_h2.png"
+ },
+ "pau_p0280_h2": {
+  "src": "source/books/paulus1532/p0280.jpg",
+  "ppi": 300,
+  "box": [
+   1680,
+   259,
+   1808,
+   369
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0280_h2.png"
+ },
+ "pau_p0201_h1": {
+  "src": "source/books/paulus1532/p0201.jpg",
+  "ppi": 300,
+  "box": [
+   819,
+   288,
+   958,
+   398
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0201_h1.png"
+ },
+ "pau_p0211_h3": {
+  "src": "source/books/paulus1532/p0211.jpg",
+  "ppi": 300,
+  "box": [
+   818,
+   256,
+   933,
+   365
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0211_h3.png"
+ },
+ "pau_p0221_h1": {
+  "src": "source/books/paulus1532/p0221.jpg",
+  "ppi": 300,
+  "box": [
+   776,
+   294,
+   921,
+   404
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0221_h1.png"
+ },
+ "pau_p0231_h1": {
+  "src": "source/books/paulus1532/p0231.jpg",
+  "ppi": 300,
+  "box": [
+   828,
+   269,
+   947,
+   379
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0231_h1.png"
+ },
+ "pau_p0241_h1": {
+  "src": "source/books/paulus1532/p0241.jpg",
+  "ppi": 300,
+  "box": [
+   789,
+   266,
+   954,
+   376
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0241_h1.png"
+ },
+ "pau_p0261_h1": {
+  "src": "source/books/paulus1532/p0261.jpg",
+  "ppi": 300,
+  "box": [
+   782,
+   289,
+   932,
+   399
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0261_h1.png"
+ },
+ "pau_p0271_h1": {
+  "src": "source/books/paulus1532/p0271.jpg",
+  "ppi": 300,
+  "box": [
+   801,
+   262,
+   940,
+   372
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0271_h1.png"
+ },
+ "pau_p0281_h1": {
+  "src": "source/books/paulus1532/p0281.jpg",
+  "ppi": 300,
+  "box": [
+   739,
+   276,
+   890,
+   386
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0281_h1.png"
+ },
+ "pau_p0214_h3": {
+  "src": "source/books/paulus1532/p0214.jpg",
+  "ppi": 300,
+  "box": [
+   1631,
+   239,
+   1714,
+   349
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0214_h3.png"
+ },
+ "pau_p0224_h2": {
+  "src": "source/books/paulus1532/p0224.jpg",
+  "ppi": 300,
+  "box": [
+   1593,
+   298,
+   1701,
+   408
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0224_h2.png"
+ },
+ "pau_p0234_h4": {
+  "src": "source/books/paulus1532/p0234.jpg",
+  "ppi": 300,
+  "box": [
+   1673,
+   284,
+   1769,
+   393
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0234_h4.png"
+ },
+ "pau_p0244_h2": {
+  "src": "source/books/paulus1532/p0244.jpg",
+  "ppi": 300,
+  "box": [
+   1649,
+   273,
+   1760,
+   383
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0244_h2.png"
+ },
+ "pau_p0254_h2": {
+  "src": "source/books/paulus1532/p0254.jpg",
+  "ppi": 300,
+  "box": [
+   1705,
+   244,
+   1800,
+   354
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0254_h2.png"
+ },
+ "pau_p0264_h2": {
+  "src": "source/books/paulus1532/p0264.jpg",
+  "ppi": 300,
+  "box": [
+   1509,
+   264,
+   1645,
+   374
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0264_h2.png"
+ },
+ "pau_p0274_h2": {
+  "src": "source/books/paulus1532/p0274.jpg",
+  "ppi": 300,
+  "box": [
+   1731,
+   236,
+   1859,
+   346
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0274_h2.png"
+ },
+ "pau_p0205_h1": {
+  "src": "source/books/paulus1532/p0205.jpg",
+  "ppi": 300,
+  "box": [
+   816,
+   277,
+   915,
+   386
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0205_h1.png"
+ },
+ "pau_p0235_h4": {
+  "src": "source/books/paulus1532/p0235.jpg",
+  "ppi": 300,
+  "box": [
+   840,
+   274,
+   970,
+   384
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0235_h4.png"
+ },
+ "pau_p0245_h1": {
+  "src": "source/books/paulus1532/p0245.jpg",
+  "ppi": 300,
+  "box": [
+   813,
+   277,
+   933,
+   387
+  ],
+  "blank": [],
+  "slant": 0,
+  "rotate": -0.0,
+  "channel": "red",
+  "out": "work/pau_p0245_h1.png"
  }
 }

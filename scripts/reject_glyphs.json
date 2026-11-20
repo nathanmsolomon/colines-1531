@@ -2,5 +2,9 @@
  "ang_italic_avg3": {
   "fi": "the only crop (signifie, p0070 line 5) is a mis-cut fragment; composed from f + i instead"
  },
- "ter_roman_avg3": {}
+ "ter_roman_avg3": {
+  "è": "Nov 20: its only Paulus word (impenſè, p0495) lost its p in the block, so both crops were other letters",
+  "ff": "Nov 20: the Paulus ff crops were cut as one f plus debris (the f+f synth template is too wide); ff stays composed from f + f",
+  "Y": "Nov 20: every Paulus Y is in the chapter headings, set in a capital about 10% smaller than the text capitals (38 against 42-46 px); the heading copies were taken out again"
+ }
 }

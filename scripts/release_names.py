@@ -22,7 +22,8 @@ LICENSE = ("This Font Software is licensed under the SIL Open Font License, Vers
 def short_family(fam):
     """Windows cuts legacy family names (nameID 1) at 31 characters, so long ones are
     shortened step by step; the full name stays in the typographic family (nameID 16)."""
-    for a, b in ((" Impression", " Imp"), ("No. ", ""), ("Two Lines ", "2L ")):
+    # a project may add its own steps (profile release "short": [[from, to], ...]), tried after these
+    for a, b in ((" Impression", " Imp"), ("No. ", ""), ("Two Lines ", "2L "), *map(tuple, _R.get("short", []))):
         if len(fam) <= 31:
             break
         fam = fam.replace(a, b)

@@ -43,6 +43,7 @@ italic was stable.
 |---|---|---|---|
 | Regular | Terentianus Maurus, *De literis, syllabis, pedibus et metris* (Paris: Colines, 1531) | Bayerische Staatsbibliothek, Res/4 A.lat.a. 587; MDZ `bsb10198271` (IIIF, colour) | ~297 ppi, from the line pitch (69.5 px) and Vervliet's 119 mm |
 | Italic | Pietro Martire d'Anghiera, *Extraict ou recueil des isles nouvellement trouvees en la grand mer Oceane* (Paris: Colines, 1532) | John Carter Brown Library, via the Internet Archive `extraictourecuei00angh` | 500 ppi, verified the same way (116.0 px) |
+| Both (supplement) | Paulus Aegineta, *Opus de re medica* (Paris: Colines, 1532), BP16 107039 | Bayerische Staatsbibliothek, MDZ `bsb10139769` (IIIF, colour) | ~300 ppi (line pitch 70 px); the text is the §14 roman, the *Annotationes* the §24 italic at the same body |
 
 Every block is resampled to a 600 ppi working scale (`scripts/prep_block.py`), where the
 body measures 140.5 px (roman, 16.9 pt) and 139.3 px (italic, 16.7 pt).
@@ -52,10 +53,20 @@ verse pages read); and small blocks of one or a few lines around rare letters fo
 OCR over the whole book: p. 106 ll. 17–19 (K), p. 55 l. 21 (k), p. 75 l. 7 (K), p. 130
 ll. 17 and 27 (X), p. 85 l. 4 (z).
 
+**Roman, from Paulus 1532 (Nov 2026), 42 more copies.** Only the glyphs the Terentianus
+lacks were taken from them: Z (*Zingiberis* twice), z (*oryza*, *oryzæ*, *Chalazion*), the
+double hyphen ⸗, and the figures from 49 folios of pp. 63–281 (pagination = page − 155 on
+pp. 200–330). The folios are one-word lines, so their fitted baselines were replaced by the
+bottom of the figures that sit on the line (`work/paulus/fix_folio_baselines.py`). The book's
+chapter headings are in a smaller titling capital (38 px against 42–46 for the text
+capitals), so its many Y were *not* used; nor its index (pp. 14–46) and errata (p. 377), which
+are in smaller founts.
+
 **Italic, 36 copies.** Pages 25, 26, 30, 69, 70, 71, 77, 82, 90, 119, 132, 148, 160, 186
 and 194, with their running heads (which give the figures 2 and 8); and 21 small blocks:
 the chapter headings "Chap. XXVIII." of pp. 321–390 (X), the names Xaragua, Xamana and
-Xagua (pp. 40, 78, 88, 239, 267), and p. 336 "Yztal-" (Y).
+Xagua (pp. 40, 78, 88, 239, 267), and p. 336 "Yztal-" (Y). **Plus 34 one-line blocks from
+the Paulus *Annotationes*** ("Pag. 104. linea 4.", pp. 102–468), used for the figures only.
 
 ### 2.3 Searched and not used
 
@@ -74,7 +85,7 @@ Xagua (pp. 40, 78, 88, 239, 267), and p. 336 "Yztal-" (Y).
 
 ## 3. Pipeline (scripts/)
 
-1. **Fetch and cut.** `fetch_sources.py` downloads both books. `prep_all.sh` cuts every
+1. **Fetch and cut.** `fetch_sources.py` downloads the three books. `prep_all.sh` cuts every
    block in `configs/blocks.json` (crop, deskew, deslant the italic, red channel to
    suppress foxing, resample to 600 ppi). The small single-line blocks had the ink of
    their neighbouring lines whitened when they were cut; `configs/masks/` holds exactly
@@ -131,8 +142,8 @@ are to each other.
 
 | Font | Font vs print | Print vs print | Lowest |
 |---|---|---|---|
-| Regular | **0.880** | 0.838 | Q 0.67 (its long tail varies), á 0.70, ú 0.74, í 0.76 |
-| Italic | **0.844** | 0.783 | v and fl (scored against all their crops, most of them mis-cut; the glyphs themselves are right), 6 0.63, g 0.63 |
+| Regular | **0.870** | 0.835 | the Paulus figures 3 0.53, 5 0.63, 0 0.66 (two books, more ink spread); Q 0.67 (its long tail varies), á 0.70, ú 0.73 |
+| Italic | **0.841** | 0.786 | v and fl (scored against all their crops, most of them mis-cut; the glyphs themselves are right), g 0.62 |
 
 `check_build.py` runs at the end of every build: stale seed crops, glyphs lost against
 the previous build, spacing with nothing to fit, and unverified thin glyphs.
@@ -156,16 +167,18 @@ italic & A F Q V Y ct y z).
 The catalogue (`specimen/Colines_catalogue.pdf`) shows every glyph with its number of
 impressions.
 
-**Regular** (80 glyphs): `A–I K–T V X a–v x–z` (no w), `& ( ) , - . : ; ?`, ꝰ; à á ã í ó ò õ ú ę ẽ ī ũ
-æ œ ſ; ligatures ct ſi ſſ ſſi ſt fi fl ffi, q̃.
-- On 1–2 impressions (each eye-checked): G k q̃ z í ó ú ī ꝰ. On 3–4: B K L R X fl.
-- **Missing:** Y, Z and the figures (in this book they appear only in the running heads
-  and folios, which may be another fount, so they were not taken); `!`, `'`.
+**Regular** (92 glyphs): `A–I K–T V X Z a–v x–z` (no w), figures `0–9` (old style, from the
+Paulus folios), `& ( ) , - ⸗ . : ; ?`, ꝰ; à á ã í ó ò õ ú ę ẽ ī ũ æ œ ſ; ligatures ct ſi ſſ
+ſſi ſt fi fl ffi, q̃.
+- On 1–2 impressions (each eye-checked): G Z k q̃ í ó ú ī ꝰ. On 3–4: 4 B K L R X fl z.
+- The figures are a little heavier than the letters: so are the printed folios.
+- **Missing:** Y (only in the smaller heading capitals), `!`, `'`. ff is composed from f + f
+  (the real ff sort of Paulus could not be cut cleanly).
 
 **Italic** (77 glyphs): `A–I L–T V X Y Z a–i l–v x–z` (no j, k), figures `0–9` (old style),
 `& ( ) , - . :`; ã ẽ ĩ õ ũ æ ſ; ligatures ct ff fl ſi ſſ ſt, p̃ q̃.
-- On 1–2 impressions (each eye-checked): ( ) 1 2 4 6 8 9 O Q T Y Z p̃ æ. On 3–4: 0 3 5 7
-  F H N fl ĩ ũ.
+- On 1–2 impressions (each eye-checked): ( ) O Q T Y Z p̃ æ. On 3–4: F H N fl ĩ ũ. The
+  figures now rest on 5–33 impressions each (Paulus *Annotationes*).
 - **Missing:** K (very rare), j, k; `;` `?` `!` `'`; œ. Word substitutes another font for
   a missing character.
 

@@ -23,6 +23,7 @@ Regular is the 1531 roman and Italic the 1532 italic, so Ctrl+I switches between
 |---|---|---|---|
 | Roman (Vervliet §14) | Terentianus Maurus, *De literis, syllabis, pedibus et metris* (Colines, 1531) | Bayerische Staatsbibliothek, MDZ bsb10198271 | 10 pages + 6 single-line blocks |
 | Italic (Vervliet §24) | Anghiera, *Extraict ou recueil des isles nouvellement trouvees* (Colines, 1532) | John Carter Brown Library, Internet Archive | 15 pages + 21 single-line blocks |
+| Both: Z, z, ⸗ and the roman figures; more impressions of the italic figures | Paulus Aegineta, *Opus de re medica* (Colines, 1532) | Bayerische Staatsbibliothek, MDZ bsb10139769 | 42 roman + 34 italic single-line blocks (text lines, folios, *Annotationes*) |
 
 Each page was transcribed line by line, so every letter shape and every spacing value is
 measured from labelled impressions: about 10,000 printed letter pairs per style.
@@ -35,8 +36,8 @@ The roman's first state (1531–32) is kept apart from its 1533 recut capitals.
 
 | | Glyphs | Fidelity: font vs print (print vs print) | Missing |
 |---|---|---|---|
-| Regular | 80 | **0.880** (0.838) | Y Z, figures, ! ' |
-| Italic | 77 | **0.844** (0.783) | K j k, ; ? ! ', œ |
+| Regular | 92 | **0.870** (0.835) | Y, ! ' |
+| Italic | 77 | **0.841** (0.786) | K j k, ; ? ! ', œ |
 
 Fidelity is the median overlap (IoU) between each letter of the font and its printed
 impressions: the font is closer to the impressions than they are to each other. J, U, W

@@ -71,6 +71,14 @@
     "ter_roman_al_p16/0030.png"
    ],
    "note": "Amazonum (p. 85 line 4)"
+  },
+  "Z": {
+   "verdict": "ok",
+   "crops": [
+    "ter_roman_al_p41 (Zingiberis, Paulus p0495 line 3)",
+    "ter_roman_al_p43 (Zingiberis, Paulus p0549 line 38)"
+   ],
+   "note": "Nov 20: both crops are the real text Z (looked at by eye); short like the print, where Z stands below the ascenders. The heading CHALAZIIS Z was left out (smaller titling capitals)."
   }
  },
  "ang_italic_avg3": {

@@ -198,6 +198,13 @@ def main():
         twords = tokens(tline)
         gaps = [gl[k + 1][0] - gl[k][1] for k in range(len(gl) - 1)]
         cuts = sorted(sorted(range(len(gaps)), key=lambda k: -gaps[k])[:len(twords) - 1])
+        if "--width_cuts" in sys.argv:
+            # pied settings: breaks that also fit each word's expected width (word_cuts.py);
+            # wildcards are sized from their letters, never from their own (junk) averages
+            import word_cuts
+            TT = {k: v for k, v in T.items() if not k.startswith("LIG:")}
+            cuts = word_cuts.cut([(g[0], g[1]) for g in gl],
+                                 [word_cuts.word_w([t.strip("{}") for t in w], TT, hmed) for w in twords], hmed)
         spans, s0 = [], 0
         for k in cuts:
             spans.append(gl[s0:k + 1]); s0 = k + 1
